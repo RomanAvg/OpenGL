@@ -1,2 +1,4 @@
 ﻿  Main.cpp
+C:\Users\Роман\source\repos\3_kurs\OpenGL_Work\OpenGL_Work\Source\Main.cpp(42,49): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\Роман\source\repos\3_kurs\OpenGL_Work\OpenGL_Work\Source\Main.cpp(96,49): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
   OpenGL_Work.vcxproj -> C:\Users\Роман\source\repos\3_kurs\OpenGL_Work\Debug\OpenGL_Work.exe
