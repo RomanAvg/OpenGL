@@ -22,6 +22,7 @@ int main(void)
     int count = 0;
     while (!glfwWindowShouldClose(window))
     {
+        
         if (!side) {
             glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
             glEnable(GL_BLEND);
@@ -135,9 +136,12 @@ int main(void)
             glfwPollEvents();
         }
         count++;
-        if(count%90==0)
+
+        if ((count-90) % 180 == 0) {
             side = !side;
+        }
     }
+    
     glfwDestroyWindow(window);
     glfwTerminate();
     exit(EXIT_SUCCESS);
